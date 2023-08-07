@@ -97,6 +97,18 @@
     .footer p a {
       color: #fff;
     }
+
+    .compose {
+      position: fixed;
+      bottom: 5rem;
+      right: 5rem;
+      background-color: #8062d6 !important;
+      border: #8062d6 !important;
+    }
+
+    .compose img {
+      width: 2.5rem;
+    }
   </style>
 </head>
 
@@ -125,6 +137,9 @@
     <p>
       <%= content %>
     </p>
+  </div>
+  <div class="compose-div" onclick="window.location.href='/compose'">
+    <button class="compose btn btn-primary"><img src="image/plus.svg" alt="Compose"></button>
   </div>
   <div class="footer-padding">
     <div class="footer">

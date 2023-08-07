@@ -84,3 +84,15 @@ nav {
 .footer p a {
   color: #fff;
 }
+
+.compose {
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+  background-color: #8062d6 !important;
+  border: #8062d6 !important;
+}
+
+.compose img {
+  width: 2.5rem;
+}

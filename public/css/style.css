@@ -1,0 +1,78 @@
+* {
+  font-family: "Montserrat", "Raleway", sans-serif;
+}
+
+nav ~ .container {
+  min-height: 72.4vh;
+}
+
+nav {
+  background-color: whitesmoke;
+  width: 100% !important;
+}
+
+.blog-name,
+.nav-link {
+  color: rgb(68, 68, 68) !important;
+}
+
+.nav-link:hover {
+  color: #1abc9c !important;
+}
+
+.page-title {
+  margin-bottom: 1rem;
+}
+
+.all-posts {
+  padding-top: 0.5rem;
+}
+
+.each-post {
+  border: 1px solid darkslategrey;
+  border-radius: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+.each-post:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#readMore {
+  color: #1abc9c;
+}
+
+#readMore:hover {
+  color: rgb(67, 111, 255);
+}
+
+#composePublish {
+  background-color: #1abc9c;
+  border: #1abc9c;
+}
+
+.footer-padding {
+  padding-bottom: 5rem;
+  position: relative;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  height: 3rem;
+  background-color: #1abc9c;
+}
+
+.footer p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.footer p a {
+  color: #fff;
+}

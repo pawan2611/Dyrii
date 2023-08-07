@@ -3,7 +3,7 @@
 }
 
 nav ~ .container {
-  min-height: 72.4vh;
+  min-height: 71.8vh;
 }
 
 nav {
@@ -11,13 +11,16 @@ nav {
   width: 100% !important;
 }
 
-.blog-name,
+#logo {
+  width: 7rem;
+}
+
 .nav-link {
   color: rgb(68, 68, 68) !important;
 }
 
 .nav-link:hover {
-  color: #1abc9c !important;
+  color: #8062d6 !important;
 }
 
 .page-title {
@@ -41,7 +44,7 @@ nav {
 }
 
 #readMore {
-  color: #1abc9c;
+  color: #8062d6;
 }
 
 #readMore:hover {
@@ -49,8 +52,13 @@ nav {
 }
 
 #composePublish {
-  background-color: #1abc9c;
-  border: #1abc9c;
+  background-color: #8062d6;
+  border: #8062d6;
+}
+
+#composePublish:hover {
+  background-color: #674ead;
+  border: #674ead;
 }
 
 .footer-padding {
@@ -64,7 +72,7 @@ nav {
   width: 100%;
   bottom: 0;
   height: 3rem;
-  background-color: #1abc9c;
+  background-color: #8062d6;
 }
 
 .footer p {
